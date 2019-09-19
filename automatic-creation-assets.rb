@@ -32,7 +32,6 @@ def convertDae(name)
     end
 end
 
-
 $scene_directory = "SCENE-FILES"
 $dae_directory = "DAE-FILES"
 
@@ -48,5 +47,3 @@ Dir.foreach($dae_directory) do |dae|
 end
 
 puts "🏁 End script ---"
-
-
